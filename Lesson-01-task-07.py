@@ -15,7 +15,7 @@
 
 a, b = map(int, input("distance (a), distance (b):").split())
 l = float(a)
-d = 1;
+d = 1
 while l < b:
     l *= 1.1
     d += 1
